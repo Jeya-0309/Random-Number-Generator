@@ -1,0 +1,64 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.random-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    font-family: Arial, sans-serif;
+}
+
+.random-card {
+    width: 400px;
+    padding: 40px 30px;
+    text-align: center;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.random-card h1 {
+    font-size: 25px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.number-display {
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #eeeaff;
+    color: #764ba2;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.message {
+    margin: 25px 0;
+    color: #777;
+    font-size: 15px;
+}
+
+.random-card button {
+    padding: 13px 25px;
+    border: none;
+    border-radius: 8px;
+    background-color: #764ba2;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.random-card button:hover {
+    background-color: #5b3685;
+    transform: scale(1.05);
+}
